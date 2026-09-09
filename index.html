@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="kicker">Student CubeSat Laboratory</div>
+    <h1>Small Satellites, <em>Big Questions</em></h1>
+    <p class="hero-text">
+      面向低轨小卫星的学生实验室。从概念设计、结构样机到在轨试验，记录每一次迭代与思考。
+    </p>
+    <p class="hero-text en">
+      A student laboratory dedicated to LEO small satellites — from conceptual design and structural prototyping to in-orbit experiments. We document every iteration and insight.
+    </p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner">
+    <h2>Latest News / 最新进展</h2>
+    {% for post in site.posts limit:3 %}
+    <div class="news-item">
+      <div class="news-date">{{ post.date | date: "%Y-%m" }}</div>
+      <div class="news-body">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-inner">
+    <h2>Research / 研究方向</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Satellite System Design</h3>
+        <p>CubeSat 平台架构、任务分析与轨道设计，从需求出发定义每一颗卫星的边界。</p>
+        <p class="en">CubeSat platform architecture, mission analysis, and orbit design — defining the boundaries of each satellite from requirements.</p>
+      </div>
+      <div class="card">
+        <h3>Attitude & Orbit Control</h3>
+        <p>姿态确定与控制、磁力矩器与反作用轮，用有限的资源实现稳定的在轨指向。</p>
+        <p class="en">Attitude determination and control, magnetic torquers and reaction wheels — achieving stable on-orbit pointing with limited resources.</p>
+      </div>
+      <div class="card">
+        <h3>Ground Verification</h3>
+        <p>半物理仿真、气浮台试验与热真空测试，在发射前把故障留给地面。</p>
+        <p class="en">Hardware-in-the-loop simulation, air-bearing tests, and thermal vacuum testing — leave the failures on the ground before launch.</p>
+      </div>
+    </div>
+  </div>
+</section>

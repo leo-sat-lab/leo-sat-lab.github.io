@@ -1,0 +1,10 @@
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="{{ site.baseurl }}/">LEO <span>Sat Lab</span></a>
+    <div class="nav-links">
+      {% for item in site.nav %}
+      <a href="{{ site.baseurl }}{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>

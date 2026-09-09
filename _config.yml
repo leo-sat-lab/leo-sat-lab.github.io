@@ -1,0 +1,21 @@
+# Site settings
+title: LEO Sat Lab
+email: chensongcas@163.com
+description: "Small Satellites, Big Questions — Student CubeSat Laboratory"
+url: "https://leo-sat-lab.github.io"
+baseurl: ""
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+
+# Navigation (English)
+nav:
+  - name: About
+    url: /about/
+  - name: Team
+    url: /team/
+  - name: News
+    url: /
+  - name: Contact
+    url: /contact/
