@@ -7,10 +7,10 @@ title: About
   <h1>About / 关于我们</h1>
 
   <p>
-    LEO Sat Lab 是一个面向低轨小卫星的学生实验室。实验室成立于 2026 年，由对航天充满热情的留学生和本科生组成，致力于从概念设计、结构制造到地面测试的全流程卫星开发。
+    LEO Sat Lab 依托<a href="https://www.buaa.edu.cn/">北京航空航天大学</a>建立，位于杭州国际校园。实验室成立于 2026 年，成员包括留学生、研究生、本科生和航天爱好者，致力于从概念设计、结构制造到地面测试的全流程 CubeSat 开发。
   </p>
   <p class="en">
-    LEO Sat Lab is a student laboratory dedicated to low-Earth-orbit small satellites. Founded in 2026, it brings together international students and undergraduates with a shared passion for space. We work on the full-cycle development of CubeSats — from conceptual design and structural manufacturing to ground testing.
+    LEO Sat Lab is affiliated with <a href="https://www.buaa.edu.cn/">Beihang University</a> and located at the Hangzhou International Campus. Founded in 2026, the lab brings together international students, graduate students, undergraduates, and space enthusiasts. We work on the full-cycle development of CubeSats — from conceptual design and structural manufacturing to ground testing.
   </p>
 
   <h2>Mission / 使命</h2>
