@@ -26,6 +26,7 @@ cd leo-sat-lab.github.io
 layout: post
 title: "新闻标题 / English Title"
 date: YYYY-MM-DD
+author: 作者姓名或笔名
 ---
 
 <p>
@@ -83,6 +84,7 @@ Use the template below (Chinese paragraph followed by English paragraph):
 layout: post
 title: "新闻标题 / English Title"
 date: YYYY-MM-DD
+author: Your Name
 ---
 
 <p>

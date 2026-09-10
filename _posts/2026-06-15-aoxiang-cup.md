@@ -2,6 +2,7 @@
 layout: post
 title: "ABCube Wins Third Prize at Aoxiang Cup / ABCube 获翱翔杯三等奖"
 date: 2026-06-15
+author: Prof. Song Chen
 ---
 
 <p>

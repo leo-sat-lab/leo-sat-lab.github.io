@@ -2,6 +2,7 @@
 layout: post
 title: "DIY Antenna Signal Reception Successful / 自制天线接收信号测试成功"
 date: 2026-09-08
+author: Prof. Song Chen
 ---
 
 <p>
