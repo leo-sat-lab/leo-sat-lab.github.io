@@ -11,6 +11,17 @@ date: 2026-09-08
   On September 8, 2026, the LEO Sat Lab team completed the first signal reception test of a self-built antenna — <strong>packets were received over the DIY antenna successfully!</strong> This marks an important step in the lab's satellite communication ground-receiving chain.
 </p>
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 28px 0;">
+  <div style="text-align: center;">
+    <img src="{{ site.baseurl }}/img/DIY-antenna1.jpg" alt="信号接收界面" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
+    <p style="font-size: 13px; color: #888; margin-top: 8px;">信号接收界面 / Signal Reception Interface</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="{{ site.baseurl }}/img/DIY-antenna2.jpg" alt="DIY天线链路" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
+    <p style="font-size: 13px; color: #888; margin-top: 8px;">DIY天线链路 / DIY Antenna Link Setup</p>
+  </div>
+</div>
+
 <p>
   本次测试使用的天线为实验室自行设计和组装，配合软件无线电（SDR）接收机，成功捕获并解调了目标信号。测试过程中对天线方向性、极化匹配和噪声基底等参数进行了初步评估，为后续优化提供了数据基础。
 </p>
