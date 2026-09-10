@@ -11,11 +11,11 @@ title: Team
   <div class="advisor-list">
     <div class="advisor-item">
       <h3><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a></h3>
-      <p>Professor / 教授</p>
+      <p>Professor / 教授 · Navigation & Location-based Services / 导航与位置服务</p>
     </div>
     <div class="advisor-item">
       <h3><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a></h3>
-      <p>Professor / 教授</p>
+      <p>Professor / 教授 · Positioning, Navigation & Remote Sensing Applications / 定位导航及遥感应用</p>
     </div>
     <div class="advisor-item">
       <h3><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a></h3>
@@ -23,7 +23,7 @@ title: Team
     </div>
     <div class="advisor-item">
       <h3><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></h3>
-      <p>Associate Researcher / 副研究员</p>
+      <p>Associate Researcher / 副研究员 · Space Environment & Small Satellite Technology / 空间环境和小卫星技术</p>
     </div>
   </div>
 
