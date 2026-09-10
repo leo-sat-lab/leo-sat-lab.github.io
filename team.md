@@ -6,13 +6,30 @@ title: Team
 <div class="page">
   <h1>Team / 团队</h1>
 
-  <div class="team-grid">
-    <div class="member">
-      <div class="avatar">陈</div>
-      <h4>PI · Song Chen</h4>
-      <p>Flight Mechanics & Vehicle Design</p>
-      <p class="en">飞行力学与飞行器设计</p>
+  <h2>Advisors / 指导教师</h2>
+
+  <div class="advisor-list">
+    <div class="advisor-item">
+      <h3><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a></h3>
+      <p>Professor / 教授</p>
     </div>
+    <div class="advisor-item">
+      <h3><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a></h3>
+      <p>Professor / 教授</p>
+    </div>
+    <div class="advisor-item">
+      <h3><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a></h3>
+      <p>Associate Professor / 副教授 · Flight Mechanics & Vehicle Design / 飞行力学与飞行器设计</p>
+    </div>
+    <div class="advisor-item">
+      <h3><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></h3>
+      <p>Associate Researcher / 副研究员</p>
+    </div>
+  </div>
+
+  <h2>Student Team / 学生团队</h2>
+
+  <div class="team-grid">
     <div class="member">
       <div class="avatar">M</div>
       <h4>Marvin</h4>
