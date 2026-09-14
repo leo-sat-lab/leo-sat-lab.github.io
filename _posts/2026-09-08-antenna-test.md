@@ -6,7 +6,7 @@ author: Prof. Song Chen
 ---
 
 <p>
-  2026 年 9 月 8 日，LEO Sat Lab 团队完成了自制天线的首次信号接收测试，<strong>Packets were received over the DIY antenna successfully!</strong> 这是实验室在卫星通信地面接收链路中迈出的重要一步。
+  2026 年 9 月 8 日，LEO Sat Lab 团队完成了自制天线的首次信号接收测试，<strong>成功通过自制天线接收到了数据包！</strong>这是实验室在卫星通信地面接收链路中迈出的重要一步。
 </p>
 <p class="en">
   On September 8, 2026, the LEO Sat Lab team completed the first signal reception test of a self-built antenna — <strong>packets were received over the DIY antenna successfully!</strong> This marks an important step in the lab's satellite communication ground-receiving chain.

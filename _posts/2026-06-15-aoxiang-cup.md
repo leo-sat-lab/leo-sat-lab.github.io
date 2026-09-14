@@ -17,6 +17,17 @@ author: Prof. Song Chen
   <p style="font-size: 13px; color: #888; margin-top: 8px;">翱翔杯三等奖获奖证书 / Aoxiang Cup Third Prize Certificate</p>
 </div>
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 28px 0;">
+  <div style="text-align: center;">
+    <img src="{{ site.baseurl }}/img/aoxiang-cup-group.jpg" alt="团队讨论" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
+    <p style="font-size: 13px; color: #888; margin-top: 8px;">参赛团队讨论作品方案 / Team Discussion on ABCube</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="{{ site.baseurl }}/img/aoxiang-cup-rules.jpg" alt="英杰介绍规则" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
+    <p style="font-size: 13px; color: #888; margin-top: 8px;">英杰介绍参赛规则 / Yingjie on Competition Rules</p>
+  </div>
+</div>
+
 <p>
   ABCube 是一颗 8U 立方星技术验证平台，搭载吸气式电推进系统，面向超低地球轨道（VLEO）长期运行需求。作为一种可持续、低燃料消耗的架构，ABCube 旨在验证 VLEO 持久驻留的关键技术。
 </p>
