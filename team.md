@@ -25,6 +25,10 @@ title: Team
       <h3><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></h3>
       <p>Associate Researcher / 副研究员 · Space Environment & Small Satellite Technology / 空间环境和小卫星技术</p>
     </div>
+    <div class="advisor-item">
+      <h3><a href="https://shi.buaa.edu.cn/liushouwen/zh_CN/index.htm" target="_blank">刘守文</a></h3>
+      <p>Research Fellow / 研究员 · Spacecraft Space Environment Engineering / 航天器空间环境工程</p>
+    </div>
   </div>
 
   <h2>Student Team / 学生团队</h2>
