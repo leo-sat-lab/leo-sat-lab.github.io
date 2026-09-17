@@ -18,8 +18,8 @@ author: Prof. Song Chen
     <p style="font-size: 13px; color: #888; margin-top: 8px;">地卫二公司前台 / Star.Vision Lobby</p>
   </div>
   <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/img/StarVision_visit_controlPanel.jpg" alt="卫星智控中心" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
-    <p style="font-size: 13px; color: #888; margin-top: 8px;">卫星智控中心大屏 / Satellite Control Center</p>
+    <img src="{{ site.baseurl }}/img/StarVision_visit-Sat.jpg" alt="WJ-IA智能遥感卫星" style="max-width: 100%; height: auto; border: 1px solid #e5e9ed;">
+    <p style="font-size: 13px; color: #888; margin-top: 8px;">WJ-IA智能遥感卫星展示 / WJ-IA Intelligent Remote Sensing Satellite</p>
   </div>
 </div>
 
