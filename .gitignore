@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Editors
+.vscode/
+.idea/
