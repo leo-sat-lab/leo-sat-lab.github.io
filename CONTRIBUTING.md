@@ -56,6 +56,15 @@ git push
 
 > **提示**：如果之前没操作过 Git，请在 VS Code 中打开仓库文件夹，使用图形界面的 Source Control 面板完成 commit 和 push 操作。
 
+### 4. 新闻会显示在哪里
+
+- 主页 `Latest News` 只列最近 5 条；要改条数，改 `index.html` 里的 `limit:5`。
+- 全部新闻在 `https://leo-sat-lab.github.io/news/`，每页默认 7 条；改 `_config.yml` 的 `news_per_page` 一个数字即可，页码自动重算。
+- 每篇文章底部会自动出现「上一篇 / 下一篇」，按发布时间取相邻文章，不用手写。
+- 配图放入 `img/`，单张控制在 300 KB 以内（长边 1400 px 已够网页使用），写法：
+  `<img src="{{ site.baseurl }}/img/文件名.jpg" alt="说明" style="max-width: 100%; height: auto;">`
+  不加 `style` 也不会撑破正文列，但请保持图片文件名只用英文、数字和连字符。
+
 ---
 
 ## English Guide
@@ -106,3 +115,12 @@ git push
 The news will appear on the homepage at `https://leo-sat-lab.github.io/` within 1–2 minutes.
 
 > **Tip**: If you're not familiar with Git commands, open the project folder in VS Code and use the Source Control panel to commit and push.
+
+### 4. Where Your News Shows Up
+
+- The homepage `Latest News` block lists the 5 most recent posts; change `limit:5` in `index.html` to adjust.
+- All posts live at `https://leo-sat-lab.github.io/news/`, 7 per page by default — edit `news_per_page` in `_config.yml` only, page numbers recalculate themselves.
+- Every post gets a Previous / Next pair at the bottom automatically, resolved from the posts adjacent in publish time.
+- Put images in `img/`, keep each under 300 KB (1400 px on the long edge is plenty for the web), and write them as
+  `<img src="{{ site.baseurl }}/img/file-name.jpg" alt="caption" style="max-width: 100%; height: auto;">`
+  Naming: letters, digits and hyphens only.

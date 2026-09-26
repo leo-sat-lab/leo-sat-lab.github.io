@@ -18,7 +18,8 @@ layout: default
 <section class="section">
   <div class="section-inner">
     <h2>Latest News / 最新进展</h2>
-    {% for post in site.posts limit:3 %}
+    {%- comment -%}首页展示条数：改下面 limit:5 的数字{%- endcomment -%}
+    {% for post in site.posts limit:5 %}
     <div class="news-item">
       <div class="news-date">{{ post.date | date: "%Y-%m" }}</div>
       <div class="news-body">
@@ -27,6 +28,9 @@ layout: default
       </div>
     </div>
     {% endfor %}
+    {% if site.posts.size > 5 %}
+    <p class="more-news"><a href="{{ site.baseurl }}/news/">全部新闻 / All news &rarr;</a></p>
+    {% endif %}
   </div>
 </section>
 

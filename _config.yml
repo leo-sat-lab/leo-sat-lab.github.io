@@ -9,6 +9,9 @@ baseurl: ""
 permalink: pretty
 markdown: kramdown
 
+# 全部新闻页 (/news/) 每页显示几篇 / posts per page on the archive
+news_per_page: 7
+
 # Navigation (English)
 nav:
   - name: About
@@ -16,6 +19,6 @@ nav:
   - name: Team
     url: /team/
   - name: News
-    url: /
+    url: /news/
   - name: Contact
     url: /contact/
