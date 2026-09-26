@@ -10,35 +10,35 @@ layout: default
 
 {%- comment -%}
   上一篇 / 下一篇
-  site.posts 按发布时间“新 → 旧”排列，所以当前下标 -1 是更晚的一篇，+1 是更早的一篇。
-  这里显式按下标取相邻文章，不依赖 Jekyll 的 page.previous / page.next——
-  那两个变量绑的是列表顺序，很容易把方向读反。
+  site.posts 按发布时间“新 → 旧”排列，因此对当前这篇来说：
+    下一项（forloop.index，1 起始）= 更早的一篇 = 上一篇
+    上一项（forloop.index0 - 1）  = 更晚的一篇 = 下一篇
+  两条链接都在这一次循环内部直接输出：Jekyll 的 for 是独立作用域，
+  循环里 assign 的变量出不了 endfor，所以不能先在循环里记下标、循环后再用。
+  同样不使用语义容易读反的 page.previous / page.next。
 {%- endcomment -%}
-{% assign cur = nil %}
-{% for p in site.posts %}
-  {%- if p.url == page.url -%}{%- assign cur = forloop.index0 -%}{%- endif -%}
-{% endfor %}
-{% if cur != nil %}
-  {% assign older_i = cur | plus: 1 %}
-  {% assign newer_i = cur | minus: 1 %}
-  {% if older_i < site.posts.size %}{% assign prev_post = site.posts[older_i] %}{% endif %}
-  {% if newer_i >= 0 %}{% assign next_post = site.posts[newer_i] %}{% endif %}
-{% endif %}
-{% if prev_post or next_post %}
+{% if site.posts.size > 1 %}
 <nav class="post-nav" aria-label="文章导航 / Post navigation">
-  {% if prev_post %}
+  {%- for p in site.posts -%}
+    {%- if p.url == page.url -%}
+      {%- assign prev_post = site.posts[forloop.index] -%}
+      {%- if prev_post -%}
   <a class="post-nav-item" href="{{ site.baseurl }}{{ prev_post.url }}" rel="prev">
     <span class="post-nav-label">&lsaquo; 上一篇 / Previous</span>
     <span class="post-nav-title">{{ prev_post.title }}</span>
     <span class="post-nav-date">{{ prev_post.date | date: "%Y-%m-%d" }}</span>
   </a>
-  {% endif %}
-  {% if next_post %}
+      {%- endif -%}
+      {%- unless forloop.first -%}
+        {%- assign newer_i = forloop.index0 | minus: 1 -%}
+        {%- assign next_post = site.posts[newer_i] -%}
   <a class="post-nav-item post-nav-next" href="{{ site.baseurl }}{{ next_post.url }}" rel="next">
     <span class="post-nav-label">下一篇 / Next &rsaquo;</span>
     <span class="post-nav-title">{{ next_post.title }}</span>
     <span class="post-nav-date">{{ next_post.date | date: "%Y-%m-%d" }}</span>
   </a>
-  {% endif %}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
 </nav>
 {% endif %}
