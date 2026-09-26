@@ -9,8 +9,9 @@ baseurl: ""
 permalink: pretty
 markdown: kramdown
 
-# 全部新闻页 (/news/) 每页显示几篇 / posts per page on the archive
-news_per_page: 7
+# 新闻显示条数 / How many news items to show —— 只改这两个数字，模板无需修改
+news_home_count: 5   # 首页 Latest News 列几条
+news_per_page: 7     # /news/ 存档页每页几条（页码自动重算）
 
 # Navigation (English)
 nav:

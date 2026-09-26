@@ -18,8 +18,9 @@ layout: default
 <section class="section">
   <div class="section-inner">
     <h2>Latest News / 最新进展</h2>
-    {%- comment -%}首页展示条数：改下面 limit:5 的数字{%- endcomment -%}
-    {% for post in site.posts limit:5 %}
+    {%- assign home_count = site.news_home_count | default: 5 -%}
+    {%- comment -%}条数改 _config.yml 的 news_home_count，不必动本文件{%- endcomment -%}
+    {% for post in site.posts limit: home_count %}
     <div class="news-item">
       <div class="news-date">{{ post.date | date: "%Y-%m" }}</div>
       <div class="news-body">
@@ -28,7 +29,7 @@ layout: default
       </div>
     </div>
     {% endfor %}
-    {% if site.posts.size > 5 %}
+    {% if site.posts.size > home_count %}
     <p class="more-news"><a href="{{ site.baseurl }}/news/">全部新闻 / All news &rarr;</a></p>
     {% endif %}
   </div>

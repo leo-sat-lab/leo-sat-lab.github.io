@@ -58,8 +58,8 @@ git push
 
 ### 4. 新闻会显示在哪里
 
-- 主页 `Latest News` 只列最近 5 条；要改条数，改 `index.html` 里的 `limit:5`。
-- 全部新闻在 `https://leo-sat-lab.github.io/news/`，每页默认 7 条；改 `_config.yml` 的 `news_per_page` 一个数字即可，页码自动重算。
+- 主页 `Latest News` 只列最近几条，以及全部新闻页每页几条，**两个数字都在 `_config.yml`**：`news_home_count`（当前 5）与 `news_per_page`（当前 7）。改完 commit + push 即可，不需要动模板。
+- 全部新闻在 `https://leo-sat-lab.github.io/news/`：列出全部文章并自动分页，超过一页时底部出现页码（页码写进地址，可直接分享给别人看第二页）。
 - 每篇文章底部会自动出现「上一篇 / 下一篇」，按发布时间取相邻文章，不用手写。
 - 配图放入 `img/`，单张控制在 300 KB 以内（长边 1400 px 已够网页使用），写法：
   `<img src="{{ site.baseurl }}/img/文件名.jpg" alt="说明" style="max-width: 100%; height: auto;">`
@@ -118,8 +118,8 @@ The news will appear on the homepage at `https://leo-sat-lab.github.io/` within 
 
 ### 4. Where Your News Shows Up
 
-- The homepage `Latest News` block lists the 5 most recent posts; change `limit:5` in `index.html` to adjust.
-- All posts live at `https://leo-sat-lab.github.io/news/`, 7 per page by default — edit `news_per_page` in `_config.yml` only, page numbers recalculate themselves.
+- The number of items on the homepage `Latest News` block and per page on the archive are **both in `_config.yml`**: `news_home_count` (currently 5) and `news_per_page` (currently 7). Edit, commit, push — no template changes.
+- All posts live at `https://leo-sat-lab.github.io/news/` with automatic paging; page numbers live in the URL hash, so a link to page 2 can be shared.
 - Every post gets a Previous / Next pair at the bottom automatically, resolved from the posts adjacent in publish time.
 - Put images in `img/`, keep each under 300 KB (1400 px on the long edge is plenty for the web), and write them as
   `<img src="{{ site.baseurl }}/img/file-name.jpg" alt="caption" style="max-width: 100%; height: auto;">`
