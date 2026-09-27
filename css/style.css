@@ -169,52 +169,6 @@ body {
 }
 .post strong { color: #0f4c81; }
 
-/* Advisors */
-.advisor-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin: 24px 0 50px;
-}
-.advisor-item {
-  border: 1px solid #e5e9ed;
-  padding: 20px 24px;
-  background: #fafbfc;
-}
-.advisor-item h3 { font-size: 17px; margin-bottom: 4px; }
-.advisor-item h3 a { color: #0f4c81; text-decoration: none; }
-.advisor-item h3 a:hover { text-decoration: underline; }
-.advisor-item p { font-size: 13.5px; color: #5c6b7a; }
-
-/* Team */
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 24px;
-  margin-top: 30px;
-}
-.member {
-  text-align: center;
-  padding: 24px;
-  border: 1px solid #e5e9ed;
-  background: #fafbfc;
-}
-.avatar {
-  width: 76px;
-  height: 76px;
-  border-radius: 50%;
-  background: #d9e4ee;
-  margin: 0 auto 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  color: #0f4c81;
-}
-.member h4 { font-size: 15px; color: #1a2733; margin-bottom: 4px; }
-.member p { font-size: 13px; color: #5c6b7a; margin-bottom: 2px; }
-.member p.en { font-size: 12px; color: #8fa3b3; }
-
 /* Footer */
 .footer {
   border-top: 1px solid #e5e9ed;
@@ -231,7 +185,6 @@ body {
   .hero h1 { font-size: 32px; }
   .cards { grid-template-columns: 1fr; }
   .news-item { grid-template-columns: 80px 1fr; }
-  .team-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ============================================================
@@ -359,4 +312,78 @@ body {
   .post-nav-next { text-align: left; }
   .pager a,
   .pager span { min-width: 36px; padding: 8px 10px; }
+}
+
+/* ============================================================
+   Team tables (指导教师 2 列 / 学生团队 4 列)
+   ============================================================ */
+
+/* 窄屏时允许横向滑动，避免四列中文挤成一团 */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 8px;
+  font-size: 15px;
+}
+.team-table caption { text-align: left; font-size: 13px; color: #8fa3b3; padding-bottom: 8px; }
+.team-table th {
+  text-align: left;
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0f4c81;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  padding: 12px 16px 10px 0;
+  border-bottom: 2px solid #d9e4ee;
+  white-space: nowrap;
+}
+.team-table td {
+  padding: 14px 16px 14px 0;
+  border-bottom: 1px solid #eef1f4;
+  color: #33465a;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.team-table tbody tr:last-child td { border-bottom: 1px solid #d9e4ee; }
+.team-table tbody tr:hover td { background: #fafbfc; }
+.team-table td:last-child,
+.team-table th:last-child { padding-right: 0; }
+
+/* 姓名保留原页面的教师主页链接 */
+.team-table a { color: #0f4c81; text-decoration: none; font-weight: bold; }
+.team-table a:hover { text-decoration: underline; }
+.team-table .name-cell { font-weight: bold; color: #1a2733; white-space: nowrap; }
+
+/* 单格里“中文 / 英文”两行排列 */
+.team-table .en {
+  display: block;
+  font-size: 12.5px;
+  color: #8fa3b3;
+  font-style: italic;
+  margin-top: 2px;
+}
+.team-table .empty-cell { color: #c3ccd4; text-align: center; }
+
+/* 导师表两列：姓名列窄、研究领域列宽 */
+.advisors-table th:first-child,
+.advisors-table td:first-child { width: 30%; }
+
+/* 学生表四列：姓名列固定宽，其余均分 */
+.students-table th:first-child,
+.students-table td:first-child { width: 16%; }
+.students-table th:nth-child(2),
+.students-table td:nth-child(2) { width: 12%; }
+
+@media (max-width: 768px) {
+  .page { padding: 56px 24px; }
+  .team-table { font-size: 14px; }
+  .team-table th { padding: 10px 12px 8px 0; font-size: 11.5px; }
+  .team-table td { padding: 12px 12px 12px 0; }
+  .advisors-table th:first-child,
+  .advisors-table td:first-child { width: 36%; }
+  .students-table th:first-child,
+  .students-table td:first-child { width: 22%; }
 }

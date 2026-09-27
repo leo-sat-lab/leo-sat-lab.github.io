@@ -7,69 +7,89 @@ title: Team
   <h1>Team / 团队</h1>
 
   <h2>Advisors / 指导教师</h2>
-
-  <div class="advisor-list">
-    <div class="advisor-item">
-      <h3><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a></h3>
-      <p>Professor / 教授 · Navigation & Location-based Services / 导航与位置服务</p>
-    </div>
-    <div class="advisor-item">
-      <h3><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a></h3>
-      <p>Professor / 教授 · Positioning, Navigation & Remote Sensing Applications / 定位导航及遥感应用</p>
-    </div>
-    <div class="advisor-item">
-      <h3><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a></h3>
-      <p>Associate Professor / 副教授 · Flight Mechanics & Vehicle Design / 飞行力学与飞行器设计</p>
-    </div>
-    <div class="advisor-item">
-      <h3><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></h3>
-      <p>Associate Researcher / 副研究员 · Space Environment & Small Satellite Technology / 空间环境和小卫星技术</p>
-    </div>
-    <div class="advisor-item">
-      <h3><a href="https://shi.buaa.edu.cn/liushouwen/zh_CN/index.htm" target="_blank">刘守文</a></h3>
-      <p>Research Fellow / 研究员 · Spacecraft Space Environment Engineering / 航天器空间环境工程</p>
-    </div>
+  <div class="table-wrap">
+    <table class="team-table advisors-table">
+      <thead>
+        <tr>
+          <th scope="col">姓名 / Name</th>
+          <th scope="col">研究领域 / Research Area</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a></td>
+          <td>导航与位置服务<span class="en">Navigation &amp; Location-based Services</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a></td>
+          <td>定位导航及遥感应用<span class="en">Positioning, Navigation &amp; Remote Sensing Applications</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a></td>
+          <td>飞行力学与飞行器设计<span class="en">Flight Mechanics &amp; Vehicle Design</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></td>
+          <td>空间环境和小卫星技术<span class="en">Space Environment &amp; Small Satellite Technology</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://shi.buaa.edu.cn/liushouwen/zh_CN/index.htm" target="_blank">刘守文</a></td>
+          <td>航天器空间环境工程<span class="en">Spacecraft Space Environment Engineering</span></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <h2>Student Team / 学生团队</h2>
-
-  <div class="team-grid">
-    <div class="member">
-      <div class="avatar">M</div>
-      <h4>Marvin</h4>
-      <p>Attitude & Orbit Control · Ph.D.</p>
-      <p class="en">姿轨控 · 博士</p>
-    </div>
-    <div class="member">
-      <div class="avatar">Y</div>
-      <h4>Yingjie</h4>
-      <p>Payload · M.Sc.</p>
-      <p class="en">有效载荷 · 硕士</p>
-    </div>
-    <div class="member">
-      <div class="avatar">M</div>
-      <h4>Marwane</h4>
-      <p>Communication & Telemetry · M.Sc.</p>
-      <p class="en">通信与测控 · 硕士</p>
-    </div>
-    <div class="member">
-      <div class="avatar">F</div>
-      <h4>Fadlan</h4>
-      <p>Structure & Thermal Control · M.Sc.</p>
-      <p class="en">结构与热控 · 硕士</p>
-    </div>
-    <div class="member">
-      <div class="avatar">M</div>
-      <h4>Matheus</h4>
-      <p>Avionics · M.Sc.</p>
-      <p class="en">综合电子 · 硕士</p>
-    </div>
-    <div class="member">
-      <div class="avatar">Z</div>
-      <h4>Zeyu Zhu</h4>
-      <p>Systems Engineering · M.Sc.</p>
-      <p class="en">系统工程 · 硕士</p>
-    </div>
+  <div class="table-wrap">
+    <table class="team-table students-table">
+      <thead>
+        <tr>
+          <th scope="col">姓名 / Name</th>
+          <th scope="col">类别 / Degree</th>
+          <th scope="col">任务分配 / Responsibility</th>
+          <th scope="col">角色 / Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="name-cell">Marvin</td>
+          <td>博士<span class="en">Ph.D.</span></td>
+          <td>姿轨控<span class="en">Attitude &amp; Orbit Control</span></td>
+          <td>总协调人<span class="en">Overall Coordinator</span></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Matheus</td>
+          <td>硕士<span class="en">M.Sc.</span></td>
+          <td>综合电子<span class="en">Avionics</span></td>
+          <td>小卫星俱乐部负责人<span class="en">CubeSat Club Lead</span></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Fadlan</td>
+          <td>硕士<span class="en">M.Sc.</span></td>
+          <td>结构与热控<span class="en">Structure &amp; Thermal Control</span></td>
+          <td>卫星地面站项目经理<span class="en">Ground Station Project Manager</span></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Marwane</td>
+          <td>硕士<span class="en">M.Sc.</span></td>
+          <td>通信与测控<span class="en">Communication &amp; Telemetry</span></td>
+          <td>ABEP 项目负责人<span class="en">ABEP Project Lead</span></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Yingjie</td>
+          <td>硕士<span class="en">M.Sc.</span></td>
+          <td>有效载荷<span class="en">Payload</span></td>
+          <td class="empty-cell">—</td>
+        </tr>
+        <tr>
+          <td class="name-cell">Zeyu Zhu</td>
+          <td>硕士<span class="en">M.Sc.</span></td>
+          <td>系统工程<span class="en">Systems Engineering</span></td>
+          <td class="empty-cell">—</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <p style="margin-top:2rem;">
