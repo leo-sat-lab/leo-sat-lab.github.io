@@ -17,23 +17,23 @@ title: Team
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a></td>
+          <td><a href="https://sse.buaa.edu.cn/info/1205/6506.htm" target="_blank">景贵飞</a><span class="name-py">/ Guifei Jing</span></td>
           <td>导航与位置服务<span class="en">Navigation &amp; Location-based Services</span></td>
         </tr>
         <tr>
-          <td><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a></td>
+          <td><a href="https://shi.buaa.edu.cn/07081/zh_CN/index.htm" target="_blank">杨东凯</a><span class="name-py">/ Dongkai Yang</span></td>
           <td>定位导航及遥感应用<span class="en">Positioning, Navigation &amp; Remote Sensing Applications</span></td>
         </tr>
         <tr>
-          <td><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a></td>
+          <td><a href="https://shi.buaa.edu.cn/chensong" target="_blank">陈松</a><span class="name-py">/ Song Chen</span></td>
           <td>飞行力学与飞行器设计<span class="en">Flight Mechanics &amp; Vehicle Design</span></td>
         </tr>
         <tr>
-          <td><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a></td>
+          <td><a href="https://shi.buaa.edu.cn/wanghao12" target="_blank">王好</a><span class="name-py">/ Hao Wang</span></td>
           <td>空间环境和小卫星技术<span class="en">Space Environment &amp; Small Satellite Technology</span></td>
         </tr>
         <tr>
-          <td><a href="https://shi.buaa.edu.cn/liushouwen/zh_CN/index.htm" target="_blank">刘守文</a></td>
+          <td><a href="https://shi.buaa.edu.cn/liushouwen/zh_CN/index.htm" target="_blank">刘守文</a><span class="name-py">/ Shouwen Liu</span></td>
           <td>航天器空间环境工程<span class="en">Spacecraft Space Environment Engineering</span></td>
         </tr>
       </tbody>

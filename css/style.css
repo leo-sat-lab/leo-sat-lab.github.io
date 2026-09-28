@@ -357,6 +357,16 @@ body {
 .team-table a:hover { text-decoration: underline; }
 .team-table .name-cell { font-weight: bold; color: #1a2733; white-space: nowrap; }
 
+/* 教师拼音：与中文名同行，作弱化处理，不抢主名 */
+.team-table .name-py {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 13px;
+  color: #8fa3b3;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  white-space: nowrap;
+}
+
 /* 单格里“中文 / 英文”两行排列 */
 .team-table .en {
   display: block;
